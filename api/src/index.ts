@@ -2,10 +2,16 @@ import { serve } from '@hono/node-server';
 import { OpenAPIHono } from '@hono/zod-openapi';
 import { swaggerUI } from '@hono/swagger-ui';
 import { cors } from 'hono/cors';
+import { logger } from 'hono/logger';
 import listsRouter from './routes/lists/index.js';
 import tasksRouter from './routes/tasks/index.js';
 
 const app = new OpenAPIHono();
+
+/**
+ * ロガー設定
+ */
+app.use('*', logger());
 
 /**
  * CORS設定

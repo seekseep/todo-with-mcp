@@ -9,7 +9,11 @@
       "Bash(npx tsc:*)",
       "Bash(cat:*)",
       "Bash(npx tailwindcss init:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(chmod:*)",
+      "Read(//Users/seekseep/Library/**)",
+      "Bash(xargs kill:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
