@@ -1,5 +1,7 @@
 # Todo with MCP
 
+![](./screenshot.png)
+
 MCP (Model Context Protocol) サーバーの動作を理解するための学習用サンプルプロジェクトです。
 
 このプロジェクトでは、Todo アプリケーションを通じて以下を学ぶことができます:
